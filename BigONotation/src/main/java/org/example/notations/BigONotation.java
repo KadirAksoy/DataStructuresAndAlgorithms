@@ -79,7 +79,7 @@ public class BigONotation {
             System.out.println("Combined time example: " + j);  // O(n)
         }
 
-        // O(2n)
+        // O(n^2)
         for (int k = 1; k <= n; k++){                           // O(n)
             for (int p = 1; p <= n; p++){
                 System.out.println("Combined time example: " + p + "and" + k);     // O(n)
